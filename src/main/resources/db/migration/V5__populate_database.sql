@@ -1,10 +1,10 @@
 -- 1. Insert Categories
-INSERT INTO categories (id, name)
-VALUES (1, 'Produce'),
-       (2, 'Dairy & Eggs'),
-       (3, 'Bakery'),
-       (4, 'Pantry & Staples'),
-       (5, 'Beverages');
+INSERT INTO categories (name)
+VALUES ('Produce'),
+       ('Dairy & Eggs'),
+       ('Bakery'),
+       ('Pantry & Staples'),
+       ( 'Beverages');
 
 -- 2. Insert Products
 INSERT INTO products (name, price, description, category_id)
